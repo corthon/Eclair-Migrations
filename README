@@ -15,7 +15,11 @@ A Brief Conversation Between the Creator and Himself
 
 ### Why did you do this?
 
-Because the migration engine built into CakePHP seemed to be woefully deficient in many respects. It was unable to atomize migrations into blocks that could be explained independently. It also provided no possible mechanism for smooth regression. Finally, there was no way to couple business logic with schema changes, and let's be honest: sometimes that's necessary.
+Because the migration engine built into CakePHP seemed to be woefully deficient in many respects.
+* It was unable to atomize migrations into blocks that could be explained independently.
+* It provided no possible mechanism for smooth regression.
+* There was no way to couple business logic with schema changes, and let's be honest: sometimes that's necessary.
+* It was incapable of expressing implementation- and database-specific schema elements, such as enums or relational constraints.
 
 ### Okay, that's great and all, but why did YOU do this? Hadn't anyone else built a solution?
 
