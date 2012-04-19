@@ -16,6 +16,7 @@ A Brief Conversation Between the Creator and Himself
 ### Why did you do this?
 
 Because the migration engine built into CakePHP seemed to be woefully deficient in many respects.
+
 * It was unable to atomize migrations into blocks that could be explained independently.
 * It provided no possible mechanism for smooth regression.
 * There was no way to couple business logic with schema changes, and let's be honest: sometimes that's necessary.
@@ -29,7 +30,8 @@ You know full well I'm too busy reinventing wheels to search for what other peop
 
 Oh... Well it's bound to happen.
 
-### And what's this about an interpretation of Rails migrations? How many times have you even used Rails?
+### And what's this about an interpretation of Rails migrations?
+### How many times have you even used Rails?
 
 Once.
 
