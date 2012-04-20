@@ -30,8 +30,7 @@ You know full well I'm too busy reinventing wheels to search for what other peop
 
 Oh... Well it's bound to happen.
 
-### And what's this about an interpretation of Rails migrations?
-### How many times have you even used Rails?
+### And what's this about an interpretation of Rails migrations? How many times have you even used Rails?
 
 Once.
 
@@ -50,7 +49,7 @@ Usage
 
 ### Installation
 
-All that should be needed is to put the shell in the Console/Command/ directory, put the model in the Model/ directory, and create the Migrations/ directory.
+All that should be needed is to put the shell in the Console/Command/ directory, put the model in the Model/ directory, and create the Migration/ directory.
 
 ### Create A Migration
 
